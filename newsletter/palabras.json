@@ -1,0 +1,124 @@
+{
+  "palabras": [
+    {
+      "slug": "trabajo",
+      "palabra": "Trabajo",
+      "premisa": "Tu empleo desciende, en línea recta, de un instrumento de tortura romano. Seguro que el lunes se ve distinto.",
+      "significado": "Esfuerzo o actividad que se realiza para conseguir algo; ocupación remunerada.",
+      "origen": "Del latín tripalium, un yugo de tres estacas con el que se inmovilizaba —y castigaba— a esclavos y reos. El verbo tripaliare significaba 'torturar', y de ahí el francés travailler y el español trabajar: un largo camino desde el castigo hasta la nómina.",
+      "detalle": "Que la palabra cotidiana del empleo conserve una marca de dolor no es casualidad: durante siglos el trabajo fue, sobre todo, la tarea del siervo. Cuando la economía moderna lo convirtió en vocación y derecho, la palabra no se inventó nueva: se reutilizó, con toda su memoria a cuestas. Es un buen ejemplo de que el lenguaje no borra su historia, solo la recicla."
+    },
+    {
+      "slug": "companero",
+      "palabra": "Compañero",
+      "premisa": "La persona que te acompaña no solo está a tu lado: en origen, comparte contigo el pan.",
+      "significado": "Persona que comparte con otra una actividad, situación o forma de vida.",
+      "origen": "Del latín tardío companio, compuesto por com- ('junto a') y panis ('pan'). El compañero era quien partía el pan contigo; la palabra viajó del plato común a la vida compartida.",
+      "detalle": "Antes de ser concepto jurídico, sociológico o ideológico, el compañerismo se forjó en la mesa. Las palabras no suelen nacer en los diccionarios sino en los gestos: partir el pan era, en la cultura romana, una promesa de lealtad. El significado moral vino después, como consecuencia de una costumbre."
+    },
+    {
+      "slug": "cobarde",
+      "palabra": "Cobarde",
+      "premisa": "La etimología del miedo se esconde en la cola: nadie quiere que le señalen la suya.",
+      "significado": "Que siente miedo o carece de valor para afrontar una situación.",
+      "origen": "Del francés couard, derivado de coe ('cola'). La imagen es animal y antigua: el que huye mete el rabo entre las piernas; la palabra nació de ese gesto y se volvió insulto.",
+      "detalle": "Los nombres del miedo suelen mirar al cuerpo: al corazón, al vientre, a la cola. El francés lo fotografió en un gesto que todos entendemos sin necesidad de diccionario. Eso es lo que hace una buena metáfora: explicar sin explicar."
+    },
+    {
+      "slug": "siniestro",
+      "palabra": "Siniestro",
+      "premisa": "Hubo un tiempo en que esta palabra solo significaba 'izquierdo'. Los augures romanos arruinaron la fiesta.",
+      "significado": "Desgracia o daño grave; dicho de un suceso, funesto o aciago.",
+      "origen": "Del latín sinister, 'izquierdo'. Para la adivinación romana, el vuelo de las aves por la izquierda presagiaba desgracias: de una dirección del cielo salió todo un juicio moral.",
+      "detalle": "No es raro que las lenguas carguen un lado del cuerpo con malos augurios: en latín lo diestro se dijo dexter, y la izquierda quedó para los malos presagios. Lo curioso es el paso del tiempo: hoy, al llamar siniestro a un accidente, repetimos sin saberlo un veredicto de dos mil años."
+    },
+    {
+      "slug": "serendipia",
+      "palabra": "Serendipia",
+      "premisa": "Tres príncipes de un cuento persa buscaban una cosa y encontraban otra mejor. De ahí nace esta palabra.",
+      "significado": "Hallazgo valioso o afortunado que se produce de manera inesperada.",
+      "origen": "Acuñada por el escritor Horace Walpole en 1754, a partir del cuento Los tres príncipes de Serendip (el antiguo nombre de Sri Lanka), cuyos héroes descubrían por casualidad aquello que no buscaban.",
+      "detalle": "Serendipia es una de las pocas palabras de las que conocemos fecha exacta de nacimiento: la carta en que Walpole la usó por primera vez. Que un nombre propio geográfico —Serendip— se haya convertido en una idea científica es una pequeña victoria del azar; el mismo azar que la palabra intenta nombrar."
+    },
+    {
+      "slug": "duende",
+      "palabra": "Duende",
+      "premisa": "Antes de ser misterio, el duende fue un asunto doméstico: era el dueño de la casa.",
+      "significado": "Ser fantástico del folclore que habita en las casas; encanto misterioso e inefable.",
+      "origen": "De la contracción duen de casa ('dueño de casa'). El espíritu que 'posee' un hogar pasó de inquilino a leyenda, y de leyenda a metáfora del arte.",
+      "detalle": "La palabra conserva, en su sonido apagado, la memoria de una economía doméstica: cada casa tenía su dueño invisible, el que la habitaba antes que nadie. Lorca lo rescató para la teoría literaria: el duende que tiene o no tiene un artista. Así, un espíritu doméstico acabó siendo el nombre del misterio del arte."
+    },
+    {
+      "slug": "estrenar",
+      "palabra": "Estrenar",
+      "premisa": "Estrenar ropa un 31 de diciembre no es superstición: es herencia de una palabra romana de Año Nuevo.",
+      "significado": "Usar o poner por primera vez algo; dar a conocer una obra por primera vez.",
+      "origen": "Del latín strena, el regalo que los romanos se hacían en las calendas de enero como augurio de buen año. De 'aguinaldo' pasó a 'primera vez': quien estrena algo inaugura, en el fondo, un año.",
+      "detalle": "La strena romana era un presente ritual —ramas de laurel, miel, higos— que se intercambiaba para asegurar la suerte. La costumbre viajó por toda Europa: en francés quedó en étrennes y en español en estrenar. Estrenar es, etimológicamente, celebrar: todo uso primero es, en el origen, una fiesta."
+    },
+    {
+      "slug": "melancolia",
+      "palabra": "Melancolía",
+      "premisa": "Los griegos creían que la tristeza se producía en el cuerpo: un exceso de 'bilis negra'.",
+      "significado": "Tristeza profunda, vaga y sin causa aparente; nostalgia.",
+      "origen": "Del griego melankholía, de mélās ('negro') y khólē ('bilis'). Para la medicina de Hipócrates, el desequilibrio de la bilis negra —la 'atrabilis'— engendraba el ánimo sombrío.",
+      "detalle": "Toda la melancolía moderna está escrita sobre una química antigua que nadie vio nunca: una bilis inexistente que explicaba la tristeza. Que sigamos usando la palabra es casi un homenaje: nombramos un sentimiento con el nombre de una sustancia que nunca existió. La ciencia se corrige; el lenguaje conserva."
+    },
+    {
+      "slug": "educacion",
+      "palabra": "Educación",
+      "premisa": "Educar es una palabra con dos verbos latinos detrás: uno que alimenta y otro que saca de dentro.",
+      "significado": "Proceso de formación de la persona; instrucción y buenas maneras.",
+      "origen": "Del latín educare ('criar, alimentar') y educere ('sacar, extraer'). Educar es, a la vez, nutrir desde fuera y desplegar lo que ya está dentro: la raíz misma es un debate pedagógico.",
+      "detalle": "Los romanos no tenían una sola palabra para lo que llamamos educar; tenían dos, y nosotros las fundimos. educare es la acción del jardinero: alimentar, cuidar, modelar. educere es la acción del partero: extraer lo que ya estaba. Cada escuela, en silencio, está eligiendo entre las dos raíces."
+    },
+    {
+      "slug": "misericordia",
+      "palabra": "Misericordia",
+      "premisa": "Esta palabra pone el corazón en la miseria ajena: literalmente.",
+      "significado": "Virtud que inclina a compadecerse de las penas ajenas; perdón.",
+      "origen": "Del latín misericordia, de misereri ('compadecerse') y cor, cordis ('corazón'). Tener misericordia es tener el corazón dispuesto hacia el que sufre.",
+      "detalle": "En latín, muchas virtudes son compuestos del corazón: concordia (mismo corazón), misericordia (corazón para la miseria), recordar (volver a pasar por el corazón). La palabra no describe un sentimiento abstracto, sino una dirección del cuerpo: un corazón que se inclina."
+    },
+    {
+      "slug": "discutir",
+      "palabra": "Discutir",
+      "premisa": "Cuando discutes, en el fondo estás 'sacudiendo' las ideas hasta que se separan.",
+      "significado": "Debatir o argumentar en contra de una opinión; examinar detenidamente.",
+      "origen": "Del latín discutere, de dis- ('en distintas direcciones') y quatere ('agitar, sacudir'). Discutir era, literalmente, sacudir algo para separar sus partes.",
+      "detalle": "La etimología es una especie de método científico accidental: para discutir bien hay que agitar el problema y separar sus piezas. La palabra asumió el sentido de 'disputar' con el tiempo, pero su raíz guarda la instrucción de uso: sacudir, examinar, separar."
+    },
+    {
+      "slug": "animo",
+      "palabra": "Ánimo",
+      "premisa": "Tu ánimo y tu alma son, en el origen, la misma palabra. La pronunciación los separó.",
+      "significado": "Valor, energía y entusiasmo; intención o disposición.",
+      "origen": "Del latín anima ('soplo, aliento, principio vital'). Ánima y ánimo son dobletes: la misma palabra latina, una culta y otra popular, que el tiempo repartió entre el espíritu y la energía.",
+      "detalle": "Anima era el soplo que hace vivir: la respiración visible del ser. Del mismo tronco salieron animal, animación, magnánimo. Que la palabra del alma haya acabado significando 'fuerza para seguir' es un acierto del lenguaje: el ánimo es, efectivamente, el aliento que sostiene."
+    },
+    {
+      "slug": "azar",
+      "palabra": "Azar",
+      "premisa": "El azar no tiene nada de caótico en su origen: viene del nombre árabe del dado.",
+      "significado": "Casualidad, suerte no buscada; riesgo imprevisible.",
+      "origen": "Del árabe az-zahr, 'el dado'. Cuando los jugadores invocaban el azar, estaban invocando, literalmente, los dados sobre la mesa.",
+      "detalle": "La palabra viajó con el juego: del árabe al español, y de ahí al italiano (azzardo) y al francés (hasard). Que el nombre de la incertidumbre sea el nombre de un objeto concreto —el dado— es un recordatorio: el lenguaje casi nunca inventa, casi siempre presta."
+    },
+    {
+      "slug": "candidato",
+      "palabra": "Candidato",
+      "premisa": "Los candidatos de la antigua Roma se vestían de blanco para parecer más puros. La toga hizo el resto.",
+      "significado": "Persona que aspira a un cargo o dignidad.",
+      "origen": "Del latín candidatus, de candidus ('blanco brillante'). El aspirante romano llevaba la toga candida, inmaculada, como anuncio de su honradez.",
+      "detalle": "La publicidad política no es moderna: ya en Roma, el candidato era el que se 'blanqueaba'. La palabra heredó la promesa —aunque no siempre la cumplió—. Hoy, candidato conserva el brillo de una toga que nadie viste."
+    },
+    {
+      "slug": "algebra",
+      "palabra": "Álgebra",
+      "premisa": "El nombre de una de tus pesadillas de secundaria viene de una palabra árabe que significa 'restauración'.",
+      "significado": "Rama de las matemáticas que estudia la combinación de símbolos según reglas.",
+      "origen": "Del árabe al-ŷabr, 'restauración, reducción', título de la obra de al-Juarismi (siglo IX) que enseñaba a recomponer ecuaciones: restaurar una parte al otro lado de la igualdad.",
+      "detalle": "Al-ŷabr es un verbo de cirujano: poner en su sitio lo que se ha descolocado. Del mismo título de al-Juarismi salió también algoritmo. Así, dos palabras cotidianas —álgebra y algoritmo— son dos monumentos, casi invisibles, a la matemática de Bagdad."
+    }
+  ]
+}
