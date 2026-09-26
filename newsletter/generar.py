@@ -47,17 +47,6 @@ body {
 .premisa { font-size: 19px; color: #4a463f; margin: 8px 0 40px; font-style: italic; }
 h2 { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: #8a857c; font-family: Helvetica, Arial, sans-serif; margin: 36px 0 6px; font-weight: normal; }
 p { margin: 0 0 18px; font-size: 16.5px; }
-.boton {
-  display: inline-block; margin-top: 12px; padding: 14px 30px;
-  background: #1c1b19; color: #f6f4ef; text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif; font-size: 12px;
-  letter-spacing: .14em; text-transform: uppercase;
-}
-.boton:hover { background: #3a362f; }
-.indice { margin-top: 56px; border-top: 1px solid #d8d4cc; padding-top: 20px; }
-.indice p { font-family: Helvetica, Arial, sans-serif; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #8a857c; margin-bottom: 10px; }
-.indice a { display: inline-block; margin: 0 14px 8px 0; color: #1c1b19; text-decoration: none; border-bottom: 1px solid #c9c4ba; font-size: 15px; }
-.indice a:hover { border-color: #1c1b19; }
 .pie { margin-top: 56px; font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #a09a8f; letter-spacing: .05em; }
 """
 
@@ -72,20 +61,12 @@ def dia_de_hoy():
     return PALABRAS[indice], numero
 
 
-def pagina(palabra, numero, es_portada=False):
+def pagina(palabra, numero):
     palabras = html.escape(palabra["palabra"])
     premisa = html.escape(palabra["premisa"])
     significado = html.escape(palabra["significado"])
     origen = html.escape(palabra["origen"])
     detalle = html.escape(palabra["detalle"])
-    url = f"{SITE_URL}/palabras/{palabra['slug']}.html"
-    nav = ""
-    if not es_portada:
-        nav = f'<p style="margin-top:48px"><a class="boton" href="{SITE_URL}/">Todas las palabras</a></p>'
-    indice = "".join(
-        f'<a href="{SITE_URL}/palabras/{p["slug"]}.html">{html.escape(p["palabra"])}</a>'
-        for p in PALABRAS
-    )
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -111,13 +92,6 @@ def pagina(palabra, numero, es_portada=False):
 
   <h2>En detalle</h2>
   <p>{detalle}</p>
-
-  {nav}
-
-  <div class="indice">
-    <p>Ediciones anteriores y futuras</p>
-    {indice}
-  </div>
 
   <footer class="pie">{TITULO} · {LEMA}</footer>
 </div>
@@ -168,7 +142,7 @@ def generar_paginas(palabra_hoy, numero):
             pagina(palabra, numero), encoding="utf-8"
         )
     (DOCS / "index.html").write_text(
-        pagina(palabra_hoy, numero, es_portada=True), encoding="utf-8"
+        pagina(palabra_hoy, numero), encoding="utf-8"
     )
 
 
