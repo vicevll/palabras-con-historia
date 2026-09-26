@@ -182,9 +182,12 @@ def generar_preview(palabra, numero):
 def enviar(palabra, numero):
     host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     puerto = int(os.environ.get("SMTP_PORT", "465"))
-    usuario = os.environ["SMTP_USER"]
-    clave = os.environ["SMTP_PASS"]
-    destino = os.environ["TO_EMAIL"]
+    usuario = os.environ.get("SMTP_USER", "")
+    clave = os.environ.get("SMTP_PASS", "")
+    destino = os.environ.get("TO_EMAIL", "")
+    if not (usuario and clave and destino):
+        print("[!] Sin secretos SMTP configurados; se omite el envío.")
+        return
     asunto = f"{palabra['palabra']} — Nº {numero}"
 
     msg = MIMEText(correo(palabra, numero), "html", "utf-8")
