@@ -16,15 +16,4 @@ body {
 .premisa { font-size: 19px; color: #4a463f; margin: 8px 0 40px; font-style: italic; }
 h2 { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: #8a857c; font-family: Helvetica, Arial, sans-serif; margin: 36px 0 6px; font-weight: normal; }
 p { margin: 0 0 18px; font-size: 16.5px; }
-.boton {
-  display: inline-block; margin-top: 12px; padding: 14px 30px;
-  background: #1c1b19; color: #f6f4ef; text-decoration: none;
-  font-family: Helvetica, Arial, sans-serif; font-size: 12px;
-  letter-spacing: .14em; text-transform: uppercase;
-}
-.boton:hover { background: #3a362f; }
-.indice { margin-top: 56px; border-top: 1px solid #d8d4cc; padding-top: 20px; }
-.indice p { font-family: Helvetica, Arial, sans-serif; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #8a857c; margin-bottom: 10px; }
-.indice a { display: inline-block; margin: 0 14px 8px 0; color: #1c1b19; text-decoration: none; border-bottom: 1px solid #c9c4ba; font-size: 15px; }
-.indice a:hover { border-color: #1c1b19; }
 .pie { margin-top: 56px; font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #a09a8f; letter-spacing: .05em; }
