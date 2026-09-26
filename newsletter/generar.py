@@ -62,9 +62,12 @@ p { margin: 0 0 18px; font-size: 16.5px; }
 """
 
 
+EDICION_INICIO = date(2026, 9, 26)
+
+
 def dia_de_hoy():
     hoy = date.today()
-    numero = (hoy.year - 2026) * 52 + hoy.isocalendar()[1]
+    numero = (hoy - EDICION_INICIO).days + 1
     indice = (hoy.timetuple().tm_yday - 1) % len(PALABRAS)
     return PALABRAS[indice], numero
 

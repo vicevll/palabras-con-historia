@@ -2,8 +2,10 @@ name: newsletter
 
 on:
   schedule:
-    # Lunes 08:30 UTC
-    - cron: '30 8 * * 1'
+    # Diario a las 08:30 UTC
+    - cron: '30 8 * * *'
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -21,9 +23,14 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Generar y enviar el newsletter
+      - name: Generar páginas
         env:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python newsletter/generar.py
+
+      - name: Enviar el correo (no en push)
+        if: github.event_name != 'push'
+        env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}

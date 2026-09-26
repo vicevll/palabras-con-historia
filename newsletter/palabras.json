@@ -119,6 +119,326 @@
       "significado": "Rama de las matemáticas que estudia la combinación de símbolos según reglas.",
       "origen": "Del árabe al-ŷabr, 'restauración, reducción', título de la obra de al-Juarismi (siglo IX) que enseñaba a recomponer ecuaciones: restaurar una parte al otro lado de la igualdad.",
       "detalle": "Al-ŷabr es un verbo de cirujano: poner en su sitio lo que se ha descolocado. Del mismo título de al-Juarismi salió también algoritmo. Así, dos palabras cotidianas —álgebra y algoritmo— son dos monumentos, casi invisibles, a la matemática de Bagdad."
+    },
+    {
+      "slug": "infancia",
+      "palabra": "Infancia",
+      "premisa": "Los niños no hablan: eso significa 'infancia' en latín. Literalmente, el que aún no dice.",
+      "significado": "Período de la vida desde el nacimiento hasta la pubertad.",
+      "origen": "Del latín infans, participio de fari ('hablar'): el que no habla todavía. Compuesto de in- (negación) y fari ('decir'), la misma raíz de fama, fábula y fabular.",
+      "detalle": "Los romanos llamaron infans a quien aún no articulaba palabra, y de esa incapacidad biológica salió todo un tramo de la vida. La palabra es un espejo cruel y hermoso: define una etapa por lo que aún no se hace. De su raíz salen fábula, fama y hasta fabular."
+    },
+    {
+      "slug": "testigo",
+      "palabra": "Testigo",
+      "premisa": "El testigo es, en origen, 'el que está en tercer lugar': el que no era parte y se quedaba para ver.",
+      "significado": "Persona que presencia un hecho y puede declarar sobre él.",
+      "origen": "Del latín testis, que significa a la vez 'testigo' y 'testículo': el tercero que se queda para dar testimonio. De la misma raíz salen atestiguar y testimonio.",
+      "detalle": "Los etimólogos discuten si testis nació de tri-statio ('el que se queda en tercer lugar') o de la anatomía; ambas lecturas coinciden en algo: el testigo es el que ocupa el lugar del otro para confirmarlo. La palabra atestigua, ella misma, un rito antiguo de presencia."
+    },
+    {
+      "slug": "persona",
+      "palabra": "Persona",
+      "premisa": "Tu 'persona' viene de una máscara de teatro. Todo lo demás es interpretación.",
+      "significado": "Individuo de la especie humana; el ser dotado de razón.",
+      "origen": "Del latín persona, la máscara con que el actor amplificaba la voz (de personare, 'sonar a través de'). En Roma, persona pasó de 'máscara' a 'papel' y, con el derecho, a 'individuo con estatus'.",
+      "detalle": "Que la palabra del sujeto nazca del teatro es una lección de filosofía involuntaria: ser persona fue, durante siglos, llevar un papel. Cuando la filosofía cristiana y el derecho la fijaron para todos, la palabra no se reinventó: se re-escenificó."
+    },
+    {
+      "slug": "salario",
+      "palabra": "Salario",
+      "premisa": "El salario era 'lo que se paga en sal'. Las legiones romanas cobraban, literalmente, en especie.",
+      "significado": "Paga que recibe un trabajador por su labor.",
+      "origen": "Del latín salarium, el dinero (o la sal) que se daba a los soldados para comprarla. La sal era tan valiosa en Roma que 'salario' guarda ese sabor original.",
+      "detalle": "Del salarium romano salieron el italiano salario, el francés salaire y hasta el inglés salary. La sal pagó ejércitos, conservó alimentos y terminó colándose en la nómina. Pocas palabras llevan tan literalmente su ingrediente original."
+    },
+    {
+      "slug": "dinero",
+      "palabra": "Dinero",
+      "premisa": "Tu dinero desciende de una moneda romana que valía diez ases: el denario.",
+      "significado": "Medio de cambio; cantidad de moneda.",
+      "origen": "Del latín denarius, la moneda de diez ases (de deni, 'de diez en diez'). El español conservó la palabra coloquial 'dinero' de esa moneda antigua.",
+      "detalle": "Los romanos no necesitaron inventar la palabra del dinero: la heredaron de una cuenta. Que el nombre genérico del dinero venga de una moneda concreta es habitual en las lenguas —también 'dólar' viene de 'tálero'. Las palabras del dinero casi siempre son ruinas de una moneda desaparecida."
+    },
+    {
+      "slug": "pelicula",
+      "palabra": "Película",
+      "premisa": "Una 'pellecilla': así se llamaba antes de existir el cine. El cine solo le prestó el nombre de su tira.",
+      "significado": "Obra cinematográfica; capa muy delgada que cubre algo.",
+      "origen": "Del latín pellicula, diminutivo de pellis ('piel'). Primero fue la película que se forma en la superficie (de la leche, del ojo), y luego la tira de celuloide.",
+      "detalle": "Cuando el cine nació, no inventó su nombre: tomó el de una membrana fina. La metáfora era técnica —una capa sensible a la luz— pero funcionó como poesía: una película es una piel que guarda imágenes. De la leche a la pantalla, la palabra no cambió de piel."
+    },
+    {
+      "slug": "prestigio",
+      "palabra": "Prestigio",
+      "premisa": "El prestigio era, en latín, 'engaño, ilusionismo'. Lo de admirado vino después.",
+      "significado": "Autoridad, renombre o influencia que se gana.",
+      "origen": "Del latín praestigiae, 'ilusiones, artes de mago' (de praestringere, 'atar, deslumbrar'). Pasó del engaño del ilusionista a la admiración que produce la excelencia.",
+      "detalle": "Los antiguos llamaron praestigiae a los trucos de los prestidigitadores —de ahí prestidigitación. Que 'prestigio' haya cambiado de signo, de fraude a fama, es una ironía histórica: la reputación también es, en parte, un efecto de ilusionismo."
+    },
+    {
+      "slug": "sarcasmo",
+      "palabra": "Sarcasmo",
+      "premisa": "Sarcasmo significa 'desgarrar carne'. La burla, etimológicamente, muerde.",
+      "significado": "Burla cruel o irónica con que se ofende.",
+      "origen": "Del griego sarkázein, 'desgarrar carne como un perro' (de sárx, 'carne'). La ironía mordaz conserva en su nombre la mordedura.",
+      "detalle": "La imagen es bruta y exacta: sarkázein describe al perro que desgarra la carne del hueso. Los griegos trasladaron el gesto a la lengua: un sarcasmo es una palabra que hace daño físico. La retórica se quedó con la mordida."
+    },
+    {
+      "slug": "cinismo",
+      "palabra": "Cinismo",
+      "premisa": "Los cínicos se llamaban 'perros'. Y no ladraban: renunciaban a todo.",
+      "significado": "Falta de vergüenza; desvergüenza.",
+      "origen": "Del griego kýnikos, 'perruno' (de kýon, 'perro'). Los seguidores de Antístenes y Diógenes vivían con desprecio de las convenciones; se les llamó perros, y adoptaron el nombre.",
+      "detalle": "El cínico original no era escéptico de todo: era el que vivía como un perro, sin pudor ni propiedades. La palabra ha viajado del modo de vida a la actitud. Hoy llamamos cínico al que desconfía de todo; los griegos llamaban así al que renunciaba a todo."
+    },
+    {
+      "slug": "sincero",
+      "palabra": "Sincero",
+      "premisa": "La etimología popular dice que los escultores 'sin cera' no disimulaban los defectos. Quizá sea leyenda, pero es bella.",
+      "significado": "Que habla o actúa con verdad.",
+      "origen": "Del latín sincerus, 'limpio, sin mezcla'. La leyenda lo explica como sine cera ('sin cera'): la cera con que se ocultaban los defectos de las estatuas; los historiadores lo dudan, pero la imagen quedó.",
+      "detalle": "Sea cierta o no la leyenda del yeso y la cera, la palabra funciona como su propia explicación: lo sincero es lo que no está rellenado. 'Sine cera' (sin cera) le dio al español sinceridad un origen tan perfecto que casi no importa que sea discutible."
+    },
+    {
+      "slug": "semana",
+      "palabra": "Semana",
+      "premisa": "La semana es una 'sietena': siete mañanas, siete días. La palabra lo dice sin querer.",
+      "significado": "Período de siete días.",
+      "origen": "Del latín septimana, de septem ('siete') y mane ('mañana'). La semana era, para los romanos, 'lo de siete mañanas'.",
+      "detalle": "Los romanos heredaron la semana de los hebreos, pero la bautizaron a su manera: septimana, siete mañanas. El español y el francés la conservaron, y cada día de la semana quedó marcado por un planeta. La semana es, en su raíz, un ciclo de mañanas contadas."
+    },
+    {
+      "slug": "lunes",
+      "palabra": "Lunes",
+      "premisa": "Tu lunes está dedicado a la Luna. El resto de la semana, a Marte, Mercurio, Júpiter, Venus y Saturno.",
+      "significado": "Primer día de la semana.",
+      "origen": "Del latín (dies) lunae, 'día de la Luna'. Los planetas romanos dieron nombre a los días: lunes (Luna), martes (Marte), miércoles (Mercurio), jueves (Júpiter), viernes (Venus).",
+      "detalle": "La semana romana era astrológica: cada día rendía culto a un astro. El inglés conservó los dioses nórdicos (Wednesday, Thursday), pero el español guardó los planetas romanos. Tu lunes laboral es, en origen, una liturgia lunar."
+    },
+    {
+      "slug": "comite",
+      "palabra": "Comité",
+      "premisa": "Un comité es un grupo al que se le 'comete' una tarea. Delegar es su raíz.",
+      "significado": "Grupo de personas elegido para tomar decisiones.",
+      "origen": "Del francés comité, y este del inglés committee, del verbo commit ('confiar, delegar'): el grupo al que se le confía un asunto. El español lo adoptó en el siglo XIX.",
+      "detalle": "Un comité no es un grupo de sabios: es un grupo de delegados, de personas a las que se les comete algo. La palabra guarda la estructura de la representación: quien comete confía, y el comité recibe. Gobernar es, también, saber cometer."
+    },
+    {
+      "slug": "comprar",
+      "palabra": "Comprar",
+      "premisa": "Comprar era 'juntar cosas para intercambiarlas'. La palabra no habla de dinero, habla de unión.",
+      "significado": "Adquirir algo pagando un precio.",
+      "origen": "Del latín comparare, 'preparar, juntar' (de cum, 'con', y parare, 'disponer'). Primero fue 'reunir mercancías'; luego, 'adquirir'.",
+      "detalle": "Cuando el trueque era ley, comprar era comparar: poner lado a lado dos cosas y ver si se ajustaban. Del mismo comparare salieron comparar y comprar; la palabra sigue uniendo lo que hoy el mercado separa."
+    },
+    {
+      "slug": "cunado",
+      "palabra": "Cuñado",
+      "premisa": "Tu cuñado es, en latín, 'de la misma sangre': cognatus. La política se disfraza de consanguinidad.",
+      "significado": "Hermano del cónyuge o cónyuge del hermano.",
+      "origen": "Del latín cognatus, 'pariente por sangre' (de co-, 'juntos', y gnatus, 'nacido'). El cuñado fue, en origen, el pariente del clan: la alianza se trataba como parentesco.",
+      "detalle": "Las sociedades antiguas trataron el matrimonio como una extensión de la familia: el cognatus, el nacido con nosotros, pasó a nombrar al recién llegado. Que la palabra del cuñado venga de la sangre dice mucho de cómo se tejían las alianzas."
+    },
+    {
+      "slug": "hambre",
+      "palabra": "Hambre",
+      "premisa": "Hambre y famélico comparten una raíz latina. La escala del apetito es, etimológicamente, una sola familia.",
+      "significado": "Necesidad de comer; deseo apremiante de algo.",
+      "origen": "Del latín fames, 'hambre'. De la misma raíz salieron el adjetivo famélico y el verbo hambrear.",
+      "detalle": "La raíz latina fames dio en español dos palabras que se ignoran: hambre y famélico. Morirse de hambre es fames; estar famélico es su adjetivo. El lenguaje guarda, en una misma familia, toda la escala del apetito."
+    },
+    {
+      "slug": "ignorar",
+      "palabra": "Ignorar",
+      "premisa": "Ignorar no es no saber: es 'des-conocer'. La palabra viene de ignarus, el que no fue presentado al saber.",
+      "significado": "No saber; no hacer caso.",
+      "origen": "Del latín ignorare, de ignarus ('ignorante, desconocedor'), formado por in- ('sin') y gnarus ('que sabe'), raíz de conocer y de gnosis.",
+      "detalle": "Ignorar comparte raíz con conocer: gnarus es el que sabe, ignorare es des-saber. La ignorancia es, etimológicamente, un desconocimiento activo, no un vacío: ignorar es no prestar atención. La palabra vigila, sin saberlo, el principio de todo aprendizaje."
+    },
+    {
+      "slug": "ejercito",
+      "palabra": "Ejército",
+      "premisa": "El ejército es, en origen, 'el ejercitado': el que entrena. Antes de la guerra, el gimnasio.",
+      "significado": "Conjunto de fuerzas armadas de un país.",
+      "origen": "Del latín exercitus, participio de exercere ('ejercitar, entrenar'). El ejército era, literalmente, el grupo adiestrado en el ejercicio.",
+      "detalle": "Los romanos no llamaron al ejército 'los que luchan', sino 'los que se ejercitan'. La palabra nació en la palestra, no en la batalla. Que la misma raíz diera ejercicio y ejército es una lección de método: la fuerza también se cultiva."
+    },
+    {
+      "slug": "guerra",
+      "palabra": "Guerra",
+      "premisa": "La guerra es una palabra germánica que entró al español cabalgando. El latín tenía otra: bellum.",
+      "significado": "Lucha armada entre naciones o grupos.",
+      "origen": "Del germánico werra, 'pelea, desorden', que llegó al español a través del francés guerre. Desplazó a la palabra latina bellum (que sobrevive en belicista, beligerante, posbélico).",
+      "detalle": "El español heredó de Roma bellum y la cambió por la voz germánica werra; hoy bellum solo vive en cultismos. Las lenguas eligen sus palabras de guerra según quién las gana: la etimología de la guerra es, también, una crónica de invasiones."
+    },
+    {
+      "slug": "gente",
+      "palabra": "Gente",
+      "premisa": "Tu 'gente' viene del latín gens: el clan, la tribu, los que comparten apellido.",
+      "significado": "Conjunto de personas.",
+      "origen": "Del latín gens, gentis, 'estirpe, clan, familia' (de la raíz de 'genio' y 'engendrar'). De 'linaje' pasó a 'los nuestros' y, finalmente, a 'las personas'.",
+      "detalle": "Cuando un romano decía gens hablaba de su tribu: los que se agrupan por nacimiento (de gignere, 'engendrar'). Hoy 'gente' ha perdido el clan, pero conserva el calor: llamamos gente a los nuestros. Del mismo tronco salen gentil y gentileza."
+    },
+    {
+      "slug": "desvelo",
+      "palabra": "Desvelo",
+      "premisa": "Desvelarse es 'quitarse el velo', no 'no dormir'. La noche le arranca el velo a la mente.",
+      "significado": "Falta de sueño; cuidado y esfuerzo.",
+      "origen": "Del latín exvelare, 'quitar el velo', de ex- y velum ('velo, toldo'). Desvelar era descubrir; desvelarse, perder el velo del sueño.",
+      "detalle": "El sueño es, etimológicamente, un velo que cubre: dormir es estar velado, y desvelarse es quedarse sin el velo. La palabra guarda una poética de la noche: el insomne no pierde el sueño, pierde el velo. Desvelo también significa cuidado: quitar el velo que oculta un asunto."
+    },
+    {
+      "slug": "viaje",
+      "palabra": "Viaje",
+      "premisa": "El viaje era, en latín, 'la provisión para el camino'. Viajar era, primero, comprar víveres.",
+      "significado": "Traslado de un lugar a otro.",
+      "origen": "Del latín viaticum, 'lo que se da para el camino' (de via, 'camino'). Primero fue la comida y el dinero del viajero; luego, el traslado mismo.",
+      "detalle": "El viaticum romano era la provisión del camino, incluso del último: la palabra pasó de 'víveres' a 'viaje' cuando el viaje ya no necesitó provisiones para nombrarse. El camino se comió a la comida."
+    },
+    {
+      "slug": "ventana",
+      "palabra": "Ventana",
+      "premisa": "Tu ventana se llama así por el viento: era 'el agujero por donde entra'. No se decía para mirar, se decía para ventilar.",
+      "significado": "Abertura en la pared que da luz y aire.",
+      "origen": "Del latín ventus ('viento'): la ventana era, en origen, el respiradero. El latín culto usaba fenestra, pero el español prefirió la forma popular que mira al viento.",
+      "detalle": "Los romanos tenían fenestra, y de ahí las lenguas vecinas (finestra, fenêtre). El español, en cambio, eligió la palabra del viento: ventana. La lengua eligió el aire antes que la luz: tu ventana es, en el fondo, una 'ventera'."
+    },
+    {
+      "slug": "chofer",
+      "palabra": "Chofer",
+      "premisa": "El chofer era 'el que calienta la caldera'. Su nombre viene de calentar, no de conducir.",
+      "significado": "Persona que conduce un vehículo.",
+      "origen": "Del francés chauffeur, 'el que calienta, el fogonero', de chauffer ('calentar'). Los primeros vehículos de vapor necesitaban quien alimentara el fuego; el conductor heredó el nombre del trabajo de calentar la máquina.",
+      "detalle": "Antes de volante y motor, los autos tenían caldera: el chauffeur era el fogonero que la mantenía viva. El oficio del conductor nació, literalmente, del calor. Hoy, al llamar chofer al conductor, repetimos el gesto de encender el fuego de la máquina."
+    },
+    {
+      "slug": "capricho",
+      "palabra": "Capricho",
+      "premisa": "El capricho era, en italiano, 'cabeza de erizo': los pelos de punta. La obstinación como animal erizado.",
+      "significado": "Deseo repentino y arbitrario.",
+      "origen": "Del italiano capriccio, de capo ('cabeza') y riccio ('erizo'): la cabeza erizada, el pelo de punta. La imagen de la fantasía que se le eriza a uno.",
+      "detalle": "Los italianos vieron el capricho como un erizo en la cabeza: algo que se eriza y no se controla. La palabra pasó del pelo de punta al gusto arbitrario. Del mismo capriccio salió el capricho musical, el 'capriccio': la fantasía que también se eriza en pentagramas."
+    },
+    {
+      "slug": "canalla",
+      "palabra": "Canalla",
+      "premisa": "La canalla es 'la jauría': el grupo de perros. El insulto colectivo más animal del idioma.",
+      "significado": "Gente vil y despreciable.",
+      "origen": "Del italiano canaglia, derivado de cane ('perro', del latín canis): la jauría, la perrada. De 'conjunto de perros' pasó a 'gente despreciable'.",
+      "detalle": "El italiano llamó canaglia a la jauría, y la metáfora funcionó como insulto social: la canalla es la manada que muerde en grupo. De la misma raíz canis salen can, canino y hasta cánido. El insulto conserva el ladrido."
+    },
+    {
+      "slug": "caricia",
+      "palabra": "Caricia",
+      "premisa": "La caricia es 'lo querido': viene de la misma raíz que querido. Acariciar es, en el origen, querer con la mano.",
+      "significado": "Tacto suave que expresa cariño.",
+      "origen": "Del italiano carezza, de caro ('querido', del latín carus, 'amado, caro'). Acariciar comparte raíz con querer, caridad y caro.",
+      "detalle": "Del latín carus ('querido') salieron caro, caridad y caricias. La caricia es el gesto que declara el precio afectivo: lo que nos es caro. La etimología convierte el gesto en palabra: acariciar es decir querido con las manos."
+    },
+    {
+      "slug": "derrochar",
+      "palabra": "Derrochar",
+      "premisa": "Derrochar era 'romper la roca': derribar el peñasco que estorba. De ahí pasó a 'gastar a lo bruto'.",
+      "significado": "Gastar o desperdiciar sin medida.",
+      "origen": "De derrocar y este de rochar ('romper rocas'), del latín vulgar *roccare y el prelatino rocca ('peña'). Derrochar es, literalmente, hacer pedazos la roca.",
+      "detalle": "La historia de derrochar es un deslizamiento: romper rocas era trabajo de cantera, y de 'destrozar' pasó a 'destrozar el dinero'. Gastar a lo bruto quedó descrito como un derribo. La palabra conserva el golpe del pico contra la piedra."
+    },
+    {
+      "slug": "estrella",
+      "palabra": "Estrella",
+      "premisa": "Tu 'estrella' viene del latín stella. La misma raíz brilla en asterisco, astro y hasta en desastre.",
+      "significado": "Astro que brilla en el cielo nocturno.",
+      "origen": "Del latín stella, del indoeuropeo *h₂stḗr, 'astro'. De la misma raíz griega astron salieron astro, astronomía, asterisco (pequeña estrella) y desastre (mala estrella).",
+      "detalle": "La raíz de estrella brilló en dos ramas: la latina (stella) y la griega (astron). Del griego llegaron astro y asterisco, y del mismo tronco desastre: una 'mala estrella'. Tu suerte y tu fracaso están, etimológicamente, escritos en el cielo."
+    },
+    {
+      "slug": "gula",
+      "palabra": "Gula",
+      "premisa": "La gula es un 'buche': la misma raíz que garganta. Comer sin medida es, literalmente, un asunto de cuello.",
+      "significado": "Apetito excesivo de comer o beber.",
+      "origen": "Del latín gula, 'garganta, glotón'. De la misma raíz salieron glotón, golosina y, por extensión, las palabras del tragón.",
+      "detalle": "La gula no nació como vicio de la mesa sino del cuello: gula es 'garganta'. El glotón es el que vive por su buche. La palabra conserva el gesto de tragar. Del mismo tronco, golosina: la cosa que se traga con gusto."
+    },
+    {
+      "slug": "calendario",
+      "palabra": "Calendario",
+      "premisa": "El calendario debe su nombre a las 'calendas': el día en que Roma pagaba sus deudas. Tu agenda viene de un día de cobro.",
+      "significado": "Sistema de organización de los días del año.",
+      "origen": "Del latín calendarium, 'libro de cuentas', de kalendae, el primer día del mes en que los romanos pagaban deudas y se anunciaban las fiestas.",
+      "detalle": "El calendarium romano era un registro de pagos, no un almanaque: las calendas eran el día de la cuenta. El sistema de días nació de la contabilidad. Tu calendario es, en el origen, un libro de cobros con fechas."
+    },
+    {
+      "slug": "republica",
+      "palabra": "República",
+      "premisa": "La república es 'la cosa pública': res publica. Lo que es de todos, todos lo gobiernan.",
+      "significado": "Forma de gobierno en que el poder es del pueblo.",
+      "origen": "Del latín res publica, 'cosa pública' (de res, 'cosa', y publicus, 'del pueblo'). El estado como asunto de todos, frente a res privata, lo de cada uno.",
+      "detalle": "Res publica era, en Roma, el asunto común: lo público. De ahí salió república, y del verbo publicare, publicar: hacer público. La palabra del gobierno y la del periódico comparten raíz: gobernar y publicar son, en el origen, lo mismo."
+    },
+    {
+      "slug": "universidad",
+      "palabra": "Universidad",
+      "premisa": "La universidad era 'la universitas': la totalidad, el gremio que lo abarca todo.",
+      "significado": "Institución de enseñanza superior.",
+      "origen": "Del latín universitas, 'totalidad, conjunto' (de universus, 'todo entero'). Primero fue el gremio de maestros y estudiantes; luego, la institución.",
+      "detalle": "La universitas medieval era el gremio completo: los que se agrupan en cuerpo. Del mismo universus viene universo: la universidad y el cosmos comparten la idea de totalidad. Tu título cuelga, etimológicamente, del universo."
+    },
+    {
+      "slug": "domingo",
+      "palabra": "Domingo",
+      "premisa": "El domingo es 'el día del Señor': dominicus. Los romanos lo llamaron así por su dueño.",
+      "significado": "Séptimo día de la semana.",
+      "origen": "Del latín (dies) dominicus, 'día del Señor', de dominus ('señor, dueño'). El cristianismo lo sustituyó por el 'día del sol' pagano.",
+      "detalle": "El dominus romano era el dueño de casa y de esclavos; el día dominicus era el día del señor. El español lo cristianizó del 'día del sol'. Domingo es, en el fondo, una palabra feudal: el día pertenece a su dueño."
+    },
+    {
+      "slug": "verdad",
+      "palabra": "Verdad",
+      "premisa": "La verdad es 'lo que es': viene de la misma raíz que ser. La palabra no puede mentir, su raíz es la realidad.",
+      "significado": "Conformidad con la realidad.",
+      "origen": "Del latín veritas, de verus ('verdadero, real'). Comparte raíz con verosímil, averiguar y con la idea de 'lo que es'.",
+      "detalle": "Verus viene de la misma raíz indoeuropea que 'ser': lo verdadero es lo que es. La etimología hace de la verdad una cuestión de ser, no de decir. Del mismo tronco salió averiguar: buscar la verdad, la averigua."
+    },
+    {
+      "slug": "monja",
+      "palabra": "Monja",
+      "premisa": "La monja es 'la sola': su nombre griego significa única, solitaria. La soledad como vocación.",
+      "significado": "Mujer que pertenece a una orden religiosa.",
+      "origen": "Del latín tardío monacha, del griego monakhḗ, femenino de monakhós ('solo, único'), de mónos ('uno'). La religiosa es la que vive apartada, la única.",
+      "detalle": "Monje y monja vienen de monos: uno, solo. La vocación fue leída como soledad. Del mismo mónos salieron monólogo (palabra de uno) y monasterio (lugar de uno). La monja es, en su nombre, una sola."
+    },
+    {
+      "slug": "peligro",
+      "palabra": "Peligro",
+      "premisa": "El peligro era, en latín, una 'prueba': periculum. Arriesgarse era someterse a la prueba.",
+      "significado": "Situación en que es posible un daño.",
+      "origen": "Del latín periculum, 'prueba, ensayo, riesgo' (de la raíz de experiri, 'probar'). El peligro es, etimológicamente, el momento de la prueba.",
+      "detalle": "Periculum es la palabra latina de la prueba y del riesgo a la vez: el que se arriesga está, literalmente, a prueba. Del mismo tronco salieron experiencia, perito y pericia. El peligro es la experiencia antes de tiempo."
+    },
+    {
+      "slug": "tarea",
+      "palabra": "Tarea",
+      "premisa": "La tarea era, en árabe, 'lo que se echa encima': la carga. Tu tarea pendiente es una carga que te echaron.",
+      "significado": "Trabajo que debe hacerse.",
+      "origen": "Del árabe tariḥa, 'lo que se arroja, lo que se echa encima'. De 'carga' pasó a 'trabajo asignado'.",
+      "detalle": "La tariḥa árabe era la carga que se le arroja a alguien: el peso. La palabra viajó del norte de África a la península y de la carga al deber. Tu tarea escolar es, en origen, un fardo que te lanzan. El lenguaje pesa, literalmente."
+    },
+    {
+      "slug": "sabado",
+      "palabra": "Sábado",
+      "premisa": "El sábado es 'el día del descanso': sabbat. Tu día libre viene de una palabra hebrea que significa parar.",
+      "significado": "Sexto día de la semana.",
+      "origen": "Del latín sabbatum, del griego sábbaton, del hebreo shabbat, 'reposo, cesación'. El día en que se deja de trabajar.",
+      "detalle": "Shabbat es, en hebreo, parar: el día en que Dios cesó. La palabra pasó por griego y latín hasta el español sábado. Que el día libre se llame literalmente 'parar' es la mejor definición del descanso. El sábado es el nombre mismo de la pausa."
+    },
+    {
+      "slug": "burocracia",
+      "palabra": "Burocracia",
+      "premisa": "La burocracia une el 'despacho' con el 'poder': el gobierno de la mesa. Y sí, la palabra nació como un insulto.",
+      "significado": "Organización administrativa de un estado.",
+      "origen": "Del francés bureaucratie, de bureau ('escritorio, despacho') y -cratie ('gobierno', del griego krátos, 'poder'). Acuñada en el siglo XVIII por el economista Vincent de Gournay como crítica al poder de los oficinistas.",
+      "detalle": "Bureaucratie nació como sátira: el gobierno del escritorio, la tiranía de los papeles. Del mismo krátos salieron democracia y aristocracia: el poder del pueblo, de los mejores y, por qué no, del papeleo. La palabra era, desde la cuna, una queja."
     }
   ]
 }
