@@ -28,8 +28,8 @@ jobs:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
         run: python newsletter/generar.py
 
-      - name: Enviar el correo (no en push)
-        if: github.event_name != 'push'
+      - name: Enviar el correo (no en push, solo si hay secretos)
+        if: github.event_name != 'push' && secrets.SMTP_USER != ''
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
