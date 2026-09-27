@@ -1,7 +1,7 @@
 # Palabras con historia
 
 Newsletter **diario** sobre el **origen y significado de palabras** poco conocidas pero útiles.
-El correo es una premisa minimalista con un botón que lleva a una página donde se explica en detalle.
+El correo es una premisa minimalista con un botón que lleva a una página donde se explica en detalle, y además **adjunta una imagen 1080×1920 lista para publicar como historia de Instagram**.
 Todo corre gratis en GitHub Actions + GitHub Pages.
 
 ## Cómo funciona
@@ -28,9 +28,15 @@ Todo corre gratis en GitHub Actions + GitHub Pages.
 ## Probar en local
 
 ```bash
-python newsletter/generar.py            # genera docs/ y la vista previa del correo en salida/
-python newsletter/generar.py --enviar   # además envía por SMTP (requiere las variables SMTP_* y TO_EMAIL)
+python -m pip install Pillow                     # necesario para la imagen de Instagram
+python newsletter/generar.py                     # genera docs/ y la vista previa del correo en salida/
+python newsletter/generar.py --enviar            # además envía por SMTP (requiere las variables SMTP_* y TO_EMAIL)
 ```
+
+## Instagram
+
+Cada correo adjunta una imagen `1080×1920` (`<slug>_historia.png`) con la palabra y su premisa, en formato
+historia de Instagram. Guárdala en el teléfono y publícala como story.
 
 ## Añadir palabras
 
