@@ -439,6 +439,310 @@
       "significado": "Organización administrativa de un estado.",
       "origen": "Del francés bureaucratie, de bureau ('escritorio, despacho') y -cratie ('gobierno', del griego krátos, 'poder'). Acuñada en el siglo XVIII por el economista Vincent de Gournay como crítica al poder de los oficinistas.",
       "detalle": "Bureaucratie nació como sátira: el gobierno del escritorio, la tiranía de los papeles. Del mismo krátos salieron democracia y aristocracia: el poder del pueblo, de los mejores y, por qué no, del papeleo. La palabra era, desde la cuna, una queja."
+    },
+    {
+      "slug": "bisiesto",
+      "palabra": "Bisiesto",
+      "premisa": "Febrero se repite cada cuatro años, y la palabra lo dice: bisiesto es 'dos veces sexto'.",
+      "significado": "Dícese del año que tiene 366 días.",
+      "origen": "Del latín bis sextus (dies), 'el día sexto dos veces': los romanos contaban dos veces el 24 de febrero (el sexto día antes de las calendas de marzo) para compensar el desfase del año solar.",
+      "detalle": "El calendario juliano corrigió el año con un truco de contabilidad: repetir un día. La palabra conservó la duplicación como nombre. Cada cuatro años, tu calendario ejecuta, sin que lo notes, una vieja instrucción romana de sumar un día falso."
+    },
+    {
+      "slug": "alunizar",
+      "palabra": "Alunizar",
+      "premisa": "Una palabra que nadie usaba hasta 1931, cuando alguien la inventó para describir lo que solo existía en la ciencia ficción.",
+      "significado": "Posarse en la superficie de la Luna.",
+      "origen": "Neologismo acuñado por la prensa española de los años treinta —se atribuye al marqués de Luca de Tena— por analogía con aterrizar: de luna más el sufijo verbal de 'tomar tierra'.",
+      "detalle": "Alunizar nació como noticia de ciencia ficción antes que como hecho real: se inventó décadas antes del Apolo XI. Es una de las pocas palabras cuya fecha de nacimiento casi se conoce: la lengua tuvo que nombrar lo imposible antes de que ocurriera."
+    },
+    {
+      "slug": "madrugada",
+      "palabra": "Madrugada",
+      "premisa": "Madrugar viene de 'maduro': la madrugada es la parte del día que ya está lista, temprana, sazonada.",
+      "significado": "Primeras horas del día; amanecer.",
+      "origen": "Del verbo madrugar, del latín vulgar *maturicare, derivado de maturus ('temprano, maduro, sazonado'). La idea no es oscuridad sino prematuridad: la hora que llega antes de tiempo.",
+      "detalle": "La raíz de madrugada es la de la fruta madura: maturus. Lo madrugador es lo temprano, lo que se da antes de la cuenta. Que la misma palabra describa la fruta sazonada y la hora intempestiva es un acierto del lenguaje: madrugar es llegar al día cuando ya está listo."
+    },
+    {
+      "slug": "sabotaje",
+      "palabra": "Sabotaje",
+      "premisa": "Un zapato de madera. Eso es lo que significa 'sabotaje' en su origen.",
+      "significado": "Daño o destrucción deliberada de algo, especialmente en conflictos.",
+      "origen": "Del francés sabotage, de sabot ('zapato de madera'). La leyenda cuenta que los obreros arrojaban sus zuecos (sabots) a las máquinas para pararlas; los filólogos lo matizan, pero la imagen quedó.",
+      "detalle": "Sabotaje desciende del claqueteo de un calzado de madera sobre el hierro. Sea leyenda o no la fábrica de los sabots en los engranajes, la palabra guardó el sonido: sabotear es, en el origen, hacer tropezar la máquina con un zapato."
+    },
+    {
+      "slug": "clandestino",
+      "palabra": "Clandestino",
+      "premisa": "Lo clandestino es 'lo que se hace a escondidas', y su raíz latina significa exactamente eso: clam, en secreto.",
+      "significado": "Que se hace u oculta de manera secreta.",
+      "origen": "Del latín clandestinus, derivado de clam ('secretamente, a escondidas'). La misma raíz sobrevive en el adverbio y en la idea de lo no proclamado.",
+      "detalle": "Clam es la palabra latina de lo oculto: lo que se dice en voz baja. De ahí clandestino, lo que existe sin ser proclamado. La etimología lo confiesa todo: lo clandestino es lo que no soporta la luz de la plaza."
+    },
+    {
+      "slug": "efimero",
+      "palabra": "Efímero",
+      "premisa": "Una palabra griega para 'lo que dura un día'. Las efímeras son, literalmente, mariposas de una jornada.",
+      "significado": "Que dura poco tiempo; pasajero.",
+      "origen": "Del griego ephḗmeros, de epí ('durante') y hēméra ('día'): lo que vive un solo día. Los insectos efímeros deben su nombre a esa vida de horas.",
+      "detalle": "Efímero era, en griego, el animal que nace y muere en una jornada. La palabra pasó de la biología a la melancolía: lo efímero es lo que no llega a la segunda noche. Del mismo tronco, hemeroteca: el archivo de los días."
+    },
+    {
+      "slug": "nomada",
+      "palabra": "Nómada",
+      "premisa": "El nómada no es 'el que no tiene casa': es el que busca pasto. Su nombre viene de apacentar.",
+      "significado": "Que va de un lugar a otro sin asentarse.",
+      "origen": "Del griego nomás, nomádos, 'el que vaga en busca de pastos', de némein ('apacentar, repartir'). La raíz es pastoral, no geográfica: el nómada sigue al alimento.",
+      "detalle": "Los griegos nombraron al nómada desde la oveja: quien deambula tras los pastos. Del mismo némein salió nomos ('ley'), porque la ley reparte. Así, nómada y nómos son parientes: el que vaga y el que distribuye."
+    },
+    {
+      "slug": "utopia",
+      "palabra": "Utopía",
+      "premisa": "La utopía es 'ningún lugar': una palabra griega inventada por Tomás Moro para nombrar el país que no existe.",
+      "significado": "Proyecto ideal e irrealizable.",
+      "origen": "Acuñada por Tomás Moro en 1516 como título de su obra, del griego ou ('no') y tópos ('lugar'): 'ningún lugar'. Un juego fonético con eutopía, 'el buen lugar'.",
+      "detalle": "Moro bautizó su isla perfecta con un nombre que es una trampa fonética: se lee 'buen lugar' y se escribe 'no lugar'. La utopía nació, así, como ambigüedad: el sitio perfecto es, por definición, el que no está."
+    },
+    {
+      "slug": "antojo",
+      "palabra": "Antojo",
+      "premisa": "El antojo es 'lo que se te pone ante los ojos': su raíz latina habla de lo que aparece, no de lo que se desea.",
+      "significado": "Deseo caprichoso y repentino.",
+      "origen": "Del latín ante oculum, 'ante el ojo'. Antojarse es ponerse algo delante de la vista hasta que la voluntad cede.",
+      "detalle": "Los antojos se llaman así porque se ven antes de quererse: la cosa se presenta ante los ojos y exige. La etimología describe la mecánica del capricho: no deseo lo que quiero, deseo lo que veo. Ante oculum se convirtió en un solo gesto: el de quedarse mirando."
+    },
+    {
+      "slug": "envidia",
+      "palabra": "Envidia",
+      "premisa": "La envidia es una 'mirada': en latín, invidia es el mal de ojo que se echa al que prospera.",
+      "significado": "Pesar por el bien ajeno.",
+      "origen": "Del latín invidia, de invidere ('mirar con malicia', de in- y videre, 'ver'). El envidioso es el que mira de reojo el bien del otro.",
+      "detalle": "Invidia era, en Roma, el mal de ojo: la mirada que daña. De ahí pasó a designar el sentimiento. Que la envidia sea una manera de ver y no de querer lo dice su raíz: el envidioso mira mucho y desea mal. Del mismo videre salieron ver, visión e inventor."
+    },
+    {
+      "slug": "pesadilla",
+      "palabra": "Pesadilla",
+      "premisa": "Tu pesadilla es un 'peso': la cosa que oprime el pecho mientras duermes. El sueño malo era, en el origen, una cosa física.",
+      "significado": "Sueño angustioso; preocupación opresiva.",
+      "origen": "De pesada (de peso) más -illa: la sensación de una carga que aplasta al durmiente. La pesadilla es, literalmente, la 'pesadez' de la noche.",
+      "detalle": "Antes de ser símbolo, la pesadilla fue una molestia del cuerpo: la impresión de que algo pesado se sienta sobre el tórax. La palabra conservó esa física del miedo. Hoy llamamos pesadilla a la angustia que oprime, sin saber que repetimos un diagnóstico antiguo de la vigilia."
+    },
+    {
+      "slug": "descarado",
+      "palabra": "Descarado",
+      "premisa": "El descarado es el que no tiene 'cara': la palabra lo dice sin rodeos.",
+      "significado": "Que obra sin vergüenza ni respeto.",
+      "origen": "De des- (negación) y cara: sin cara para la vergüenza. La 'cara' era, metafóricamente, el pudor: no poder sostener la mirada o no ponerse colorado.",
+      "detalle": "Las lenguas guardan la geografía del pudor en el rostro: descarado, caradura, sinvergüenza. Perder la cara es perder la vergüenza. La palabra describe el gesto de quien no se ruboriza: el descarado es el que no tiene rostro que esconder."
+    },
+    {
+      "slug": "bazar",
+      "palabra": "Bazar",
+      "premisa": "Tu 'bazar' viene de una palabra persa para mercado cubierto. La palabra viajó por todo el imperio antes de llegar a tu esquina.",
+      "significado": "Tienda o mercado de productos variados.",
+      "origen": "Del persa bāzār ('mercado'), a través del árabe y el turco, y de ahí a las lenguas europeas. Viajó del Gran Bazar de Estambul a los bazares de barrio.",
+      "detalle": "Bazar es una de las palabras más viajeras del idioma: nació en el persa, se instaló en el árabe, el turco y el italiano, y desde ahí se esparció. Su historia es la del comercio mismo: la palabra del mercado siguió las rutas de la mercancía."
+    },
+    {
+      "slug": "cero",
+      "palabra": "Cero",
+      "premisa": "El cero es 'el vacío': viene de una palabra árabe, sifr, que significa 'vacío'. Sin él, las matemáticas no serían lo que son.",
+      "significado": "Número que expresa un valor nulo.",
+      "origen": "Del árabe sifr, 'vacío, nada', traducido del sánscrito śūnya. El árabe tomó de la India el concepto y el nombre; de sifr salieron cero y cifra.",
+      "detalle": "Cero y cifra son hermanos: ambos vienen de sifr, 'el vacío'. Los europeos recibieron del árabe no solo el símbolo sino la idea de que nada puede contar. Que la palabra de la nada haya dado la cifra que todo lo ordena es la mejor historia del número."
+    },
+    {
+      "slug": "aduana",
+      "palabra": "Aduana",
+      "premisa": "La aduana viene de una palabra árabe que significaba 'registro' o 'libro de cuentas'. Tu equipaje pasa por un archivo medieval.",
+      "significado": "Oficina donde se controlan y gravan las mercancías.",
+      "origen": "Del árabe ad-dīwān ('el registro, la oficina'), que dio también 'diwan'. La aduana es, en origen, el lugar del libro: el sitio donde se apunta lo que entra.",
+      "detalle": "Dīwān era la oficina del registro en el mundo árabe: el libro y la administración. De ahí pasó al español aduana, y del mismo tronco, en otras lenguas, las palabras de la contabilidad. Tu viaje empieza en un mostrador que es, etimológicamente, un archivo."
+    },
+    {
+      "slug": "termino",
+      "palabra": "Término",
+      "premisa": "Tu 'término' era una piedra: el mojón que marcaba los límites del campo. Las palabras también tienen fronteras.",
+      "significado": "Fin o límite; palabra o expresión.",
+      "origen": "Del latín terminus, 'mojón, piedra fronteriza'. De marcar la tierra pasó a marcar el fin de algo, y de ahí, al límite del significado de una palabra.",
+      "detalle": "Los romanos plantaron terminus, piedras sagradas, para partir los campos; mover una era un crimen. De ese límite de tierra salió todo: el término de una frase, el término medio, los términos de un contrato. El lenguaje heredó las fronteras del campo."
+    },
+    {
+      "slug": "taciturno",
+      "palabra": "Taciturno",
+      "premisa": "El taciturno está 'callado' en latín: su nombre viene de tacitus, el silencio.",
+      "significado": "Callado y triste; que habla poco.",
+      "origen": "Del latín taciturnus, derivado de tacitus ('silencioso'), participio de tacere ('callar'). El que calla casi por naturaleza.",
+      "detalle": "Tacere es el verbo latino de callar: de ahí taciturno, tácito (lo que no se dice) y reticencia. El taciturno no es el que no tiene nada que decir: es el que guarda silencio. La palabra suena a lo que describe, cerrada y de pocas sílabas."
+    },
+    {
+      "slug": "candido",
+      "palabra": "Cándido",
+      "premisa": "El cándido es 'blanco': su palabra viene del latín candidus, el que no tiene mancha. Ser cándido es ser inmaculado... y por eso, ingenuo.",
+      "significado": "Ingenuo, sin malicia; blanco.",
+      "origen": "Del latín candidus, 'blanco brillante'. De la blancura pasó a la pureza, y de la pureza a la ingenuidad: el cándido es el que no ve la mancha porque no la tiene.",
+      "detalle": "Candidus es la misma raíz de candidato: el que se viste de blanco. Ser cándido es ser blanco, limpio, y por extensión crédulo. La palabra encierra una ironía: la virtud de no ver el mal se llama igual que la falta de visión."
+    },
+    {
+      "slug": "nectar",
+      "palabra": "Néctar",
+      "premisa": "El néctar era la bebida de los dioses, y su nombre griego significa 'lo que vence a la muerte'.",
+      "significado": "Bebida exquisita; jugo de las flores.",
+      "origen": "Del griego néktar, de nek- ('muerte') y tar ('vencer, superar'): lo que supera a la muerte. La bebida que daba inmortalidad a los dioses del Olimpo.",
+      "detalle": "Los griegos sirvieron a sus dioses néctar y ambrosía, y el néctar llevaba la muerte vencida en su nombre. Los botánicos lo robaron para las flores: el líquido que alimenta a los insectos. De la inmortalidad al azúcar de las flores, la palabra no perdió dulzura."
+    },
+    {
+      "slug": "panacea",
+      "palabra": "Panacea",
+      "premisa": "La panacea es el 'remedio para todo': su nombre griego junta todo con cura.",
+      "significado": "Remedio universal; solución para cualquier mal.",
+      "origen": "Del griego panákeia, de pan ('todo') y ákos ('remedio'). Panacea era además una diosa griega de la curación, hija de Esculapio.",
+      "detalle": "Los griegos tenían diosa para el remedio universal: Panacea, hija de Esculapio. La palabra pasó de la teología a la medicina y de ahí a la ironía: la panacea que todo lo cura es, casi siempre, la que no existe. Su raíz es una promesa que la historia no cumplió."
+    },
+    {
+      "slug": "eutanasia",
+      "palabra": "Eutanasia",
+      "premisa": "La eutanasia es un 'buen morir': su nombre griego junta lo bueno con la muerte.",
+      "significado": "Intervención para procurar una muerte sin sufrimiento.",
+      "origen": "Del griego euthanasía, de eu ('bueno') y thánatos ('muerte'). La buena muerte, la que llega sin dolor.",
+      "detalle": "Los griegos deseaban el euthanatos: morir bien, sin agonía. La palabra guardó la esperanza de un final limpio. Que un debate entero de nuestro siglo gire sobre un nombre griego de dos mil años es prueba de que la lengua define, antes que nosotros, el dilema."
+    },
+    {
+      "slug": "cacofonia",
+      "palabra": "Cacofonía",
+      "premisa": "La cacofonía es un 'mal sonido': su nombre griego lo dice tal cual. Cuando una frase suena mal, el griego ya la había bautizado.",
+      "significado": "Combinación de sonidos desagradable al oído.",
+      "origen": "Del griego kakophōnía, de kakós ('malo') y phōnḗ ('sonido, voz'). Lo contrario de la eufonía, el buen sonido.",
+      "detalle": "Los griegos midieron el sonido con la misma balanza que el bien y el mal: cacofonía es lo mal sonante, eufonía lo bien sonante. Del mismo phōnḗ salieron fonética, teléfono y sinfonía. La cacofonía es la prueba de que el idioma también tiene oído."
+    },
+    {
+      "slug": "siesta",
+      "palabra": "Siesta",
+      "premisa": "Tu siesta es la 'hora sexta': los romanos contaban las horas desde el amanecer, y a mediodía era la sexta.",
+      "significado": "Descanso breve después de comer.",
+      "origen": "Del latín (hora) sexta, 'la sexta hora': la del mediodía, cuando el sol está alto y la jornada se parte en dos.",
+      "detalle": "Los romanos partieron el día en doce horas y llamaron sexta a la del mediodía. La siesta es el descendiente de esa cuenta solar. Que el descanso de la tarde se llame 'sexta' en español, sesta en italiano y siesta en todo el mundo es una victoria del reloj romano."
+    },
+    {
+      "slug": "ocaso",
+      "palabra": "Ocaso",
+      "premisa": "El ocaso es una 'caída': el sol, en latín, se cae al oeste. Su palabra conserva el gesto de hundirse.",
+      "significado": "Puesta del sol; decadencia o fin.",
+      "origen": "Del latín occasus, de occidere ('caer, hundirse'), aplicado al sol que se pone. De la caída del astro pasó a la caída de todo lo que declina.",
+      "detalle": "Occidere es el verbo de la caída: el sol cae al final del día, y de esa caída salieron ocaso y occidente, la tierra donde se pone. La palabra arrastra la física del atardecer: lo que declina se hunde, literalmente. El idioma describe el final como una caída."
+    },
+    {
+      "slug": "crepusculo",
+      "palabra": "Crepúsculo",
+      "premisa": "El crepúsculo es la 'luz dudosa': su raíz latina significa 'incierto, dudoso'.",
+      "significado": "Claridad del alba o del atardecer.",
+      "origen": "Del latín crepusculum, derivado de creper ('oscuro, dudoso'). La luz del crepúsculo es la que no es ni día ni noche: incierta por definición.",
+      "detalle": "Creper significaba 'dudoso', y el crepúsculo es, literalmente, la luz que no se decide. Los romanos llamaron crepusculum a esa hora ambigua de los límites. De la misma familia, crepúsculo conservó su duda: ni noche ni día, ni fin ni principio."
+    },
+    {
+      "slug": "penumbra",
+      "palabra": "Penumbra",
+      "premisa": "La penumbra es 'casi sombra': su raíz latina suma 'casi' y 'sombra'.",
+      "significado": "Claridad débil que precede a la sombra.",
+      "origen": "Del latín paene ('casi') y umbra ('sombra'): la cuasi-sombra, la luz que queda antes de la oscuridad total.",
+      "detalle": "Los latinos fueron exactos: penumbra es lo que está a un paso de la sombra. La palabra sirvió primero a la astronomía (la sombra parcial de un eclipse) y luego a la poesía. El idioma cuantifica la penumbra: es casi nada, es casi todo."
+    },
+    {
+      "slug": "estio",
+      "palabra": "Estío",
+      "premisa": "El estío es 'el verano' en latín, y suena como suena: caliente, seco, corto.",
+      "significado": "Verano; estación más cálida del año.",
+      "origen": "Del latín aestas, aestatis, 'verano' (raíz de 'calor', aestus). El estío conserva el latín puro, mientras 'verano' es un préstamo posterior.",
+      "detalle": "El español tiene dos palabras para el calor: verano (del tardío veranum, 'primaveral') y estío (del latín clásico aestas). El estío es el verano con pedigrí romano. Su raíz aestus, 'calor ardiente', da también estival. El idioma guardó el clásico para la poesía."
+    },
+    {
+      "slug": "empalagar",
+      "palabra": "Empalagar",
+      "premisa": "Empalagar es empalagarse 'de paladar': la palabra nació del cielo de la boca, y significa llenarlo hasta el hastío.",
+      "significado": "Causar hastío por exceso de dulzura o de algo.",
+      "origen": "De en- y paladar: empalagar es saturar el paladar hasta el empalago, el fastidio. Del gusto físico pasó al aburrimiento moral.",
+      "detalle": "Empalagar describe el gesto del que se harta: el paladar lleno se vuelve rechazo. La palabra viajó del dulce al tedio: lo empalagoso cansa la boca y, después, el ánimo. Que el hastío tenga sabor lo dice la etimología: empalagar es comer de más, en el paladar."
+    },
+    {
+      "slug": "socarron",
+      "palabra": "Socarrón",
+      "premisa": "El socarrón es el que está 'chamuscado': su palabra viene de quemar por fuera. La ironía que quema la superficie.",
+      "significado": "Que hace o dice algo con ironía y disimulo.",
+      "origen": "De socarrar ('quemar ligeramente la superficie'), del latín vulgar *subcremare, de cremare ('quemar'). El socarrón es el que quema por fuera: burlón, zumbón.",
+      "detalle": "Socarrar es dorar la superficie al fuego: dejar la costra tostada y el interior crudo. De ahí, socarrón: el que quema con palabras sin llegar al fondo. La etimología convierte la ironía en cocina: el socarrón tuesta el lenguaje por fuera."
+    },
+    {
+      "slug": "abstemio",
+      "palabra": "Abstemio",
+      "premisa": "El abstemio es el que 'no bebe vino': su nombre latino junta la negación con la palabra del vino.",
+      "significado": "Que no bebe vino ni bebidas alcohólicas.",
+      "origen": "Del latín abstemius, de abs- ('lejos de') y temetum ('vino, bebida embriagante'). El que se mantiene lejos del vino.",
+      "detalle": "Temetum era la palabra latina del vino de sacrificio, y abstemio es el que se aparta de él. La palabra nació en el templo y se mudó a la mesa. Que el que no bebe se llame 'alejado del vino' es una definición tan exacta que no envejece."
+    },
+    {
+      "slug": "baladi",
+      "palabra": "Baladí",
+      "premisa": "Lo baladí era 'lo del pueblo': una palabra árabe para lo común acabó queriendo decir lo insignificante.",
+      "significado": "De poca importancia; trivial.",
+      "origen": "Del árabe baladī, 'del país, de la tierra, común'. Lo que es del lugar, sin valor de importación, se volvió sinónimo de poco importante.",
+      "detalle": "En los mercados árabes, lo baladí era lo local: lo que no viene de fuera, lo ordinario. La palabra se cargó de desprecio: lo común pasó a ser lo despreciable. Que 'del pueblo' haya llegado a significar 'trivial' es un esnobismo que el idioma registra sin juzgar."
+    },
+    {
+      "slug": "adalid",
+      "palabra": "Adalid",
+      "premisa": "El adalid era 'el guía': una palabra árabe para el conductor del ejército.",
+      "significado": "Jefe o caudillo; persona que encabeza una causa.",
+      "origen": "Del árabe ad-dalīl, 'el guía, el conductor' (de dalla, 'indicar el camino'). El adalid guiaba la hueste; luego, cualquier causa.",
+      "detalle": "El ad-dalīl árabe era el que mostraba el camino en la expedición. La palabra pasó de la guía militar a la dirección moral: el adalid de una causa. Que el líder se llame 'el que enseña el camino' es una de las etimologías más nobles del idioma."
+    },
+    {
+      "slug": "alquimia",
+      "palabra": "Alquimia",
+      "premisa": "La alquimia es una palabra árabe con raíz egipcia: 'la ciencia del país de Kemi'. La química moderna nació de su nombre.",
+      "significado": "Práctica antigua que buscaba transformar los metales; química primitiva.",
+      "origen": "Del árabe al-kīmiyā', y este del griego khēmeía (quizá de Khemia, el nombre antiguo de Egipto). La alquimia es, literalmente, 'la ciencia egipcia' con artículo árabe.",
+      "detalle": "La palabra es un palimpsesto: al (el artículo árabe) + kīmiyā' (de origen griego-egipcio). De ella salió química, la ciencia moderna. La alquimia que soñaba convertir el plomo en oro dejó en el idioma su nombre para la ciencia que la reemplazó."
+    },
+    {
+      "slug": "huracan",
+      "palabra": "Huracán",
+      "premisa": "El huracán es una palabra taína que Europa aprendió de las islas: el dios de la tormenta se llamaba Hurákan.",
+      "significado": "Viento tropical muy violento.",
+      "origen": "Del taíno huracán, nombre del dios de la tormenta. Los españoles la tomaron en las Antillas en el siglo XVI y la extendieron al mundo.",
+      "detalle": "El huracán llegó al español con el nombre de un dios: Huracán era la deidad del caos en la mitología taína. La palabra conserva la sacralidad del desastre. Que el nombre del viento desastroso sea un préstamo indígena es un recordatorio de que el idioma creció en América."
+    },
+    {
+      "slug": "tabaco",
+      "palabra": "Tabaco",
+      "premisa": "El tabaco pudo venir de la palabra taína para el tubo de fumar. La planta tomó el nombre del artefacto.",
+      "significado": "Planta y producto que se fuma.",
+      "origen": "Del taíno tabako, que designaba el tubo o rollo con que se fumaba. Los europeos trasladaron el nombre del instrumento a la planta que llegó de América.",
+      "detalle": "Los taínos fumaban con un tubo llamado tabako, y los españoles llamaron tabaco tanto al tubo como a la hoja. El idioma hizo con la palabra lo mismo que con la costumbre: tomó el nombre de América y lo hizo universal. Los filólogos discuten el matiz, pero el préstamo antillano es el origen aceptado."
+    },
+    {
+      "slug": "hamaca",
+      "palabra": "Hamaca",
+      "premisa": "Tu hamaca es una palabra taína que se colgó en todas las lenguas. La cama colgante de las islas llegó con su nombre.",
+      "significado": "Cama o lona colgante para descansar.",
+      "origen": "Del taíno hamaka. Los españoles la adoptaron en el siglo XVI, y de ahí pasó al inglés (hammock), al francés y a casi todas las lenguas del mundo.",
+      "detalle": "La hamaca fue el primer mueble americano que conquistó el mundo: los europeos la copiaron en los barcos, y su nombre taíno viajó con la navegación. Que una palabra antillana cuelgue hoy en todos los idiomas es una victoria silenciosa de los pueblos que la inventaron."
+    },
+    {
+      "slug": "barbacoa",
+      "palabra": "Barbacoa",
+      "premisa": "La barbacoa era, en taíno, 'el armazón de palos para asar'. El asado moderno lleva el nombre de una parrilla precolombina.",
+      "significado": "Método de asar carne; parrilla o asado.",
+      "origen": "Del taíno barbacoa, la estructura de palos sobre la que se asaba la carne. Los españoles la adoptaron en las Antillas; el inglés la convirtió en barbecue.",
+      "detalle": "Los taínos asaban la carne sobre un emparrillado de palos: la barbacoa. La palabra cruzó el océano en dos direcciones, hacia el español y el inglés (barbecue), y se volvió global. El asado de fin de semana es, etimológicamente, un rito antillano."
+    },
+    {
+      "slug": "canibal",
+      "palabra": "Caníbal",
+      "premisa": "El caníbal viene de 'caribe': los europeos confundieron el nombre de un pueblo con su supuesta costumbre.",
+      "significado": "Que come carne humana.",
+      "origen": "De caribe (del taíno kariba), deformado en caníbal en el siglo XVI: los europeos asociaron el nombre del pueblo caribe con el canibalismo que le atribuían.",
+      "detalle": "Caníbal es un malentendido histórico hecho palabra: los caribes dieron nombre a los caníbales, aunque la costumbre fuera más bien leyenda. La palabra cargó con un pueblo entero la culpa de un mito. Del mismo caribe salió también el mar Caribe: el mar y el caníbal comparten raíz."
     }
   ]
 }
