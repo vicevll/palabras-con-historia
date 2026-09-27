@@ -4,8 +4,6 @@ on:
   schedule:
     # Diario a las 08:30 UTC
     - cron: '30 8 * * *'
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
