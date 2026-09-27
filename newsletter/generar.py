@@ -11,12 +11,21 @@ import argparse
 import html
 import json
 import os
+import shutil
 import smtplib
 import unicodedata
 from datetime import date
+from email.mime.image import MIMEImage
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.utils import formataddr
 from pathlib import Path
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+    PIL_DISPONIBLE = True
+except ImportError:
+    PIL_DISPONIBLE = False
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATOS = json.loads((RAIZ / "newsletter" / "palabras.json").read_text(encoding="utf-8"))
@@ -100,6 +109,87 @@ def pagina(palabra, numero):
 """
 
 
+def _fuente(serif, tam):
+    candidatos = []
+    if os.name == "nt":
+        base = Path("C:/Windows/Fonts")
+        if serif:
+            candidatos = [base / "georgia.ttf", base / "times.ttf"]
+        else:
+            candidatos = [base / "arial.ttf", base / "segoeui.ttf"]
+    else:
+        if serif:
+            candidatos = [Path("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf")]
+        else:
+            candidatos = [Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf")]
+    for c in candidatos:
+        if c.exists():
+            return ImageFont.truetype(str(c), tam)
+    try:
+        return ImageFont.load_default(size=tam)
+    except TypeError:
+        return ImageFont.load_default()
+
+
+def _texto_ajustado(draw, texto, fuente, ancho_max):
+    lineas = []
+    for parrafo in texto.split("\n"):
+        palabras_linea = []
+        for p in parrafo.split(" "):
+            prueba = " ".join(palabras_linea + [p])
+            if draw.textlength(prueba, font=fuente) <= ancho_max:
+                palabras_linea.append(p)
+            else:
+                if palabras_linea:
+                    lineas.append(" ".join(palabras_linea))
+                palabras_linea = [p]
+        if palabras_linea:
+            lineas.append(" ".join(palabras_linea))
+    return lineas
+
+
+def imagen_story(palabra, numero, ruta):
+    """Imagen 1080x1920 lista para publicar como historia de Instagram."""
+    ancho, alto = 1080, 1920
+    img = Image.new("RGB", (ancho, alto), "#f6f4ef")
+    draw = ImageDraw.Draw(img)
+    tinta, gris, cuerpo = "#1c1b19", "#8a857c", "#4a463f"
+    margen = 90
+    ancho_util = ancho - 2 * margen
+
+    fuente_marca = _fuente(serif=False, tam=34)
+    draw.text((margen, 300), "PALABRAS CON HISTORIA", font=fuente_marca, fill=gris)
+    draw.text((margen, 362), f"EDICIÓN Nº {numero}", font=fuente_marca, fill=gris)
+
+    tam = 230
+    fuente = _fuente(serif=True, tam=tam)
+    while tam > 40 and draw.textlength(palabra["palabra"], font=fuente) > ancho_util:
+        tam -= 10
+        fuente = _fuente(serif=True, tam=tam)
+    draw.text((margen, 580), palabra["palabra"], font=fuente, fill=tinta)
+
+    y_linea = 580 + tam + 44
+    draw.line([(margen, y_linea), (ancho - margen, y_linea)], fill="#d8d4cc", width=3)
+
+    tam_prem = 54
+    fuente_prem = _fuente(serif=True, tam=tam_prem)
+    lineas = _texto_ajustado(draw, palabra["premisa"], fuente_prem, ancho_util)
+    while len(lineas) > 6 and tam_prem > 34:
+        tam_prem -= 4
+        fuente_prem = _fuente(serif=True, tam=tam_prem)
+        lineas = _texto_ajustado(draw, palabra["premisa"], fuente_prem, ancho_util)
+    y = y_linea + 56
+    for ln in lineas:
+        draw.text((margen, y), ln, font=fuente_prem, fill=cuerpo)
+        y += tam_prem + 26
+
+    fuente_pie = _fuente(serif=False, tam=30)
+    draw.text((margen, alto - 150), "Palabras con historia", font=fuente_pie, fill=gris)
+
+    img.save(ruta, "PNG")
+    return ruta
+
+
 def correo(palabra, numero):
     palabras = html.escape(palabra["palabra"])
     premisa = html.escape(palabra["premisa"])
@@ -121,6 +211,7 @@ def correo(palabra, numero):
           <h1 style="margin:0 0 12px;font-family:Georgia,serif;font-size:52px;font-weight:normal;color:#1c1b19;">{palabras}</h1>
           <p style="margin:0 0 28px;font-family:Georgia,serif;font-size:19px;font-style:italic;line-height:1.6;color:#4a463f;">{premisa}</p>
           <a href="{url}" style="display:inline-block;padding:14px 30px;background:#1c1b19;color:#f6f4ef;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;">Descubrir el significado</a>
+          <p style="margin:28px 0 0;font-family:Helvetica,Arial,sans-serif;font-size:12px;color:#a09a8f;">📸 Adjunta va una imagen en formato historia de Instagram (1080×1920): guárdala en tu teléfono y publícala como story.</p>
         </td></tr>
         <tr><td style="padding-top:48px;border-top:1px solid #d8d4cc;">
           <p style="margin:0;font-family:Helvetica,Arial,sans-serif;font-size:11px;color:#a09a8f;">El origen y significado de palabras que no son tan conocidas, pero que son útiles.</p>
@@ -164,7 +255,14 @@ def enviar(palabra, numero):
         return
     asunto = f"{palabra['palabra']} — Nº {numero}"
 
-    msg = MIMEText(correo(palabra, numero), "html", "utf-8")
+    msg = MIMEMultipart()
+    msg.attach(MIMEText(correo(palabra, numero), "html", "utf-8"))
+    ruta_imagen = DOCS / "palabras" / f"{palabra['slug']}_historia.png"
+    if ruta_imagen.exists():
+        with ruta_imagen.open("rb") as f:
+            adjunto = MIMEImage(f.read(), _subtype="png")
+        adjunto.add_header("Content-Disposition", "attachment", filename=f"{palabra['slug']}_historia.png")
+        msg.attach(adjunto)
     msg["Subject"] = asunto
     msg["From"] = formataddr(("Palabras con historia", usuario))
     msg["To"] = destino
@@ -184,9 +282,20 @@ def main():
     generar_paginas(palabra, numero)
     preview = generar_preview(palabra, numero)
 
+    img_docs = DOCS / "palabras" / f"{palabra['slug']}_historia.png"
+    img_salida = SALIDA / f"story_{palabra['slug']}.png"
+    if PIL_DISPONIBLE:
+        imagen_story(palabra, numero, img_docs)
+        SALIDA.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(img_docs, img_salida)
+    else:
+        print("[!] Pillow no está instalado; se omite la imagen para Instagram. Instala con: pip install Pillow")
+
     print(f"[i] Palabra de hoy: {palabra['palabra']} (Nº {numero})")
     print(f"[i] Páginas generadas en: {DOCS}")
     print(f"[i] Vista previa del correo: {preview}")
+    if PIL_DISPONIBLE:
+        print(f"[i] Imagen para Instagram: {img_salida}")
 
     if args.enviar:
         enviar(palabra, numero)
