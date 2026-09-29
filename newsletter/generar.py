@@ -13,6 +13,7 @@ import json
 import os
 import shutil
 import smtplib
+import time
 import unicodedata
 from datetime import date
 from email.mime.image import MIMEImage
@@ -244,6 +245,16 @@ def generar_preview(palabra, numero):
     return ruta
 
 
+MARCA = DOCS / "ultima_edicion.txt"
+
+
+def ya_enviada(numero):
+    try:
+        return int(MARCA.read_text(encoding="utf-8").strip()) >= numero
+    except (OSError, ValueError):
+        return False
+
+
 def enviar(palabra, numero):
     host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     puerto = int(os.environ.get("SMTP_PORT", "465"))
@@ -252,6 +263,9 @@ def enviar(palabra, numero):
     destino = os.environ.get("TO_EMAIL", "")
     if not (usuario and clave and destino):
         print("[!] Sin secretos SMTP configurados; se omite el envío.")
+        return
+    if ya_enviada(numero):
+        print(f"[i] Edición Nº {numero} ya enviada; se omite el envío.")
         return
     asunto = f"{palabra['palabra']} — Nº {numero}"
 
@@ -267,10 +281,21 @@ def enviar(palabra, numero):
     msg["From"] = formataddr(("Palabras con historia", usuario))
     msg["To"] = destino
 
-    with smtplib.SMTP_SSL(host, puerto, timeout=60) as smtp:
-        smtp.login(usuario, clave)
-        smtp.sendmail(usuario, [destino], msg.as_string())
-    print(f"[+] Enviado a {destino}: {asunto}")
+    ultimo_error = None
+    for intento in range(1, 4):
+        try:
+            with smtplib.SMTP_SSL(host, puerto, timeout=60) as smtp:
+                smtp.login(usuario, clave)
+                smtp.sendmail(usuario, [destino], msg.as_string())
+            MARCA.write_text(str(numero), encoding="utf-8")
+            print(f"[+] Enviado a {destino}: {asunto}")
+            return
+        except Exception as e:
+            ultimo_error = e
+            print(f"[-] Intento {intento} falló: {e}")
+            if intento < 3:
+                time.sleep(20)
+    raise RuntimeError(f"SMTP falló tras 3 intentos: {ultimo_error}")
 
 
 def main():

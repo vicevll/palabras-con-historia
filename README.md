@@ -8,8 +8,8 @@ Todo corre gratis en GitHub Actions + GitHub Pages.
 
 - `newsletter/palabras.json` — banco de palabras (premisa, significado, origen, detalle).
 - `newsletter/generar.py` — elige la palabra del día, genera el correo HTML y las páginas estáticas en `docs/`, y envía por SMTP.
-- `.github/workflows/newsletter.yml` — dispara el envío cada día (08:30 UTC), publica las páginas y las regenera en cada push.
-- `docs/` — sitio en GitHub Pages con la explicación completa de cada palabra.
+- `.github/workflows/newsletter.yml` — dispara el envío en varios horarios al día (08:30–20:30 UTC). Los cron de GitHub Actions se retrasan con frecuencia; los múltiples slots con marcador de edición garantizan que el correo salga el mismo día aunque un run falle o llegue tarde.
+- `docs/` — sitio en GitHub Pages con la explicación completa de cada palabra. `docs/ultima_edicion.txt` guarda la última edición enviada (evita correos duplicados).
 
 ## Configuración (una vez)
 

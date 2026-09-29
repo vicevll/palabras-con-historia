@@ -2,8 +2,15 @@ name: newsletter
 
 on:
   schedule:
-    # Diario a las 08:30 UTC
+    # Varios intentos al día: el primero que logre enviar marca la edición y el resto se omite.
+    # (Los cron de GitHub Actions se retrasan con frecuencia; estos slots compensan el retraso y los fallos.)
     - cron: '30 8 * * *'
+    - cron: '30 10 * * *'
+    - cron: '30 12 * * *'
+    - cron: '30 14 * * *'
+    - cron: '30 16 * * *'
+    - cron: '30 18 * * *'
+    - cron: '30 20 * * *'
   workflow_dispatch:
 
 permissions:
@@ -42,5 +49,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs
-          git commit -m "newsletter: $(date +%F)" || echo "Sin cambios"
-          git push
+          git commit -m "newsletter: $(date +%F)" || true
+          for intento in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            echo "[-] Push falló (intento $intento); reintentando en 20s..."
+            sleep 20
+          done
+          echo "[!] No se pudo publicar las páginas (transitorio); el correo ya fue enviado."
